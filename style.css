@@ -1,0 +1,24 @@
+p:hover {
+  color: rgb(255, 64, 129);
+  text-decoration: underline;
+}
+figcaption:hover {
+  color: rgb(255, 64, 129);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.content:hover {
+  background: rgb(240, 230, 140);
+}
+#grad1:hover {
+  background: linear-gradient(
+    to top right,
+    rgb(64, 224, 208),
+    rgb(255, 127, 80)
+  );
+  box-shadow: 5px 5px 15px rgba(64, 224, 208, 0.5);
+}
+.container-fluid:hover h1 {
+  color: rgb(32, 112, 144);
+  text-decoration: underline;
+}
